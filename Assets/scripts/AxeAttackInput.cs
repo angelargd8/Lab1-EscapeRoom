@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class AxeAttackInput : MonoBehaviour
 {
+    [SerializeField] AudioClip AxeSFX;
     [SerializeField] private AxeHit axeHit;
     [SerializeField] private AxeSwing axeSwing;
     [SerializeField] private float attackWindow = 0.25f;
@@ -19,6 +20,9 @@ public class AxeAttackInput : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
+            //sonido
+            AudioManager.Instance.PlaySFX(AxeSFX);
+
             // Animación
             if (axeSwing != null) axeSwing.PlaySwing();
 

@@ -3,6 +3,7 @@ using UnityEngine;
 public class AxeHit : MonoBehaviour
 {
     [SerializeField] private int damagePerHit = 1;
+    
 
     // para evitar que cuente muchos golpes en un solo choque
     [SerializeField] private float hitCooldown = 0.3f;
@@ -25,6 +26,7 @@ public class AxeHit : MonoBehaviour
         if (door != null)
         {
             Debug.Log("Golpe a puerta: " + door.name);
+            
             door.TakeHit(damagePerHit);
             lastHitTime = Time.time;
         }
