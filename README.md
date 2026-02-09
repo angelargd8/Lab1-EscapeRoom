@@ -1,4 +1,4 @@
-# Lab1-EscapeRoom
+# Lab 2 - EscapeRoom
 
 ## Enlace del vídeo:
 
@@ -13,6 +13,7 @@ Completar todos los obstaculos y llegar a la zona final
 - **Mouse** – Mirar alrededor
 - **F** –  Golpear con el hacha
 - **E** –  Mover muebles y abrir puertas
+- **m** –  volver al menu al final
 
 ## Obstaculos: 
 1. Parkour y presionar un boton
@@ -21,6 +22,26 @@ Completar todos los obstaculos y llegar a la zona final
 4. El piso es lava
 5. Mover muebles
 6. Buscar un hacha y cortar la madera
+
+# Menus: 
+- main menu
+- options menu
+- pause menu
+
+## Volume Options: 
+- Master
+- Ambience
+- SFX 
+
+# SFX: 
+1. puertas
+2. boton
+3. lava
+4. teletransport
+5. sonido del final
+6. hacha
+
+
 
 ## Tecnologías 
 - Unity
