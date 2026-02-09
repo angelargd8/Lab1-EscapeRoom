@@ -2,6 +2,11 @@
 
 ## Enlace del vídeo:
 
+### Lab 1:
+
+https://1drv.ms/v/c/06492521fc344794/IQC1-LYZEwXrQooY7qmDvguHAaemWhosuKt8kj4AlcQCfFY?e=iDmJT3
+
+### Lab 2:
 https://1drv.ms/v/c/06492521fc344794/IQDdSNj-Vu5yT7MWJE91dXOQASD-Bwc0RF5puY8cWTsRdYs?e=PWUD9Z
 
 ## Objetivo
