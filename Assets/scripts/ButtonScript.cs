@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
+    [SerializeField] AudioClip ButtonSFX;
+
     public GameObject door;   
     public Transform buttonVisual;
 
@@ -27,6 +29,8 @@ public class ButtonScript : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         pressed = true;
+
+        AudioManager.Instance.PlaySFX(ButtonSFX);
 
         if (door != null)
         {

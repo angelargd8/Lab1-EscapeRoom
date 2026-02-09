@@ -9,7 +9,7 @@ public class DoorController : MonoBehaviour
         Invoke(nameof(DisableDoor), disableDelay);
     }
 
-    void DisableDoor()
+        void DisableDoor()
     {
         gameObject.SetActive(false);
     }

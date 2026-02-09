@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class HazardKill : MonoBehaviour
 {
+    [SerializeField] AudioClip FloorSFX;
+
     public Transform respawnPoint;
 
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("Hazard TRIGGER ENTER con: " + other.name + " | tag: " + other.tag);
 
         var player = other.GetComponentInParent<CharacterController>();
 
@@ -25,6 +26,8 @@ public class HazardKill : MonoBehaviour
         }
 
         Debug.Log("Respawn");
+
+        AudioManager.Instance.PlaySFX(FloorSFX);
 
         player.enabled = false;
         player.transform.position = respawnPoint.position;
